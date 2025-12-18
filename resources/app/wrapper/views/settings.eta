@@ -108,6 +108,10 @@
 					<h3>Should GoExport add an outro to exported videos?</h3>
 					<p>By default, GoExport will add an outro to exported videos.</p>
 					<input class="setting" type="checkbox" id="GE_OUTRO"></input>
+
+					<h3>Should GoExport require OBS?</h3>
+					<p>Useful to only allow exporting when OBS is running.</p>
+					<input class="setting" type="checkbox" id="GE_REQUIRE_OBS"></input>
 				</nav>
 			</nav>
 		</main>

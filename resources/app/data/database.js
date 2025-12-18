@@ -19,6 +19,7 @@ module.exports = class GoDatabase {
         GE_RESOLUTION: "720p", // Sets GoExport resolution to 720p
         GE_OPEN_FOLDER: true, // Opens the export folder after exporting a video
         GE_OUTRO: true, // Adds the GoExport outro to exported videos
+        GE_REQUIRE_OBS: false, // Requires OBS to be running to use GoExport
       };
     } else {
       this.path = path.join(folder, "database.json");

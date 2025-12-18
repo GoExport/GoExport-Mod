@@ -90,7 +90,7 @@
     			<a href="/file/movie/file/${tbl.id}" download="${tbl.title}.zip"></a>
     			<a href="#" onclick="destructive('${tbl.id}', 'repair')"></a>
     			<a href="#" onclick="destructive('${tbl.id}', 'delete')"></a>
-    			<a href="goexport://?video_id=${tbl.id}&service=local_beta&no_input=1&resolution=${settings.GE_RESOLUTION}&aspect_ratio=${settings.GE_ASPECT}&open_folder=${settings.GE_OPEN_FOLDER}&use_outro=${settings.GE_OUTRO}"></a>
+    			<a href="goexport://?video_id=${tbl.id}&service=local_beta&no_input=1&resolution=${settings.GE_RESOLUTION}&aspect_ratio=${settings.GE_ASPECT}&open_folder=${settings.GE_OPEN_FOLDER}&use_outro=${settings.GE_OUTRO}&obs_required=${settings.GE_REQUIRE_OBS}"></a>
     		</td>
     	</tr>`.trim()
         );
